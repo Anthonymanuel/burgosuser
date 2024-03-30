@@ -27,5 +27,6 @@ func SignUp(sig models.SignUp) error {
 		return err
 	}
 
+	fmt.Println("SignUp > Ejecucion Exitosa")
 	return nil
 }

@@ -10,6 +10,6 @@ type SecretRDSJson struct {
 }
 
 type SignUp struct {
-	UserEmail string `josn:UserEmail`
-	UserUUID  string `josn:UserUUID`
+	UserEmail string `json:"UserEmail"`
+	UserUUID  string `json:"UserUUID"`
 }
